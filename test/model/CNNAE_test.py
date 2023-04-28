@@ -87,7 +87,7 @@ for epoch in range(NUM_EPOCHS):
         
 
     scaled_loss = loss.item()
-    if epoch % 1 == 0:
+    if epoch % 10 == 0:
         print('[%d] loss: %.3f' % (epoch, scaled_loss) )
         running_loss = 0.0
 
