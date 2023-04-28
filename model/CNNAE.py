@@ -4,7 +4,7 @@ import torch.nn as nn
 
 class CNNAE(nn.Module):
     '''
-    An implementation of convolutional autoencoder for mnist
+    An implementation of convolutional autoencoder for mnis
     
     Args:
         feat_size (int): Size of extracted image features
